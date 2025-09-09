@@ -28,13 +28,14 @@ const AboutPlus = () => {
             Matching ads-on: N2000 daily <br />
             Tiktok/fb lovers share: N1500 per 1,000 views
           </p>
-        </div>
-
-        <div>
+          <div>
           <a onClick={() => navigate("/signup")} className="reg_btn button button_link">
             Get Started →
           </a>
         </div>
+        </div>
+
+        
       </div>
     </section>
   );

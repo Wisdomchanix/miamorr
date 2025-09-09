@@ -26,13 +26,14 @@ const About = () => {
             Tiktok/Fb lovers share: N2500 per 1,000 views <br />
             Lover Hamper: N10,000 on every love hamper/box opened
           </p>
-        </div>
-
-        <div>
+          <div>
           <a onClick={() => navigate("/signup")} className="reg_btn button button_link">
             Get Started →
           </a>
         </div>
+        </div>
+
+        
       </div>
     </section>
   );
